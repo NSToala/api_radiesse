@@ -1,0 +1,9 @@
+# Node
+node_modules
+postman
+
+# Build
+build
+
+# environment variables
+.env
