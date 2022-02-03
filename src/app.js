@@ -36,7 +36,7 @@ app.use(express.urlencoded({ extended: false }));
 // Welcome Routes
 app.get("/", (req, res) => {
   res.json({
-    message: "Welcome to my Products API",
+    message: "API Rest",
     name: app.get("pkg").name,
     version: app.get("pkg").version,
     description: app.get("pkg").description,
