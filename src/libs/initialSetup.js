@@ -14,13 +14,7 @@ export const createCourse = async () => {
 
     // Create default Courses
     const values = await Promise.all([
-      new Course({ name: "Variante omicron III", speaker: "Ana Maria Roura", category: "Health", path: "media/courses/omicron.mp4", poster: "media/posters/poster-omicron,png" }).save(),
-      new Course({ name: "Variante omicron IV", speaker: "Ana Maria Roura", category: "Health", path: "media/courses/omicron.mp4", poster: "media/posters/poster-omicron,png" }).save(),
-      new Course({ name: "Variante omicron V", speaker: "Ana Maria Roura", category: "Health", path: "media/courses/omicron.mp4", poster: "media/posters/poster-omicron,png" }).save(),
-      new Course({ name: "Variante omicron VI", speaker: "Ana Maria Roura", category: "Health", path: "media/courses/omicron.mp4", poster: "media/posters/poster-omicron,png" }).save(),
-      new Course({ name: "Variante omicron VII", speaker: "Ana Maria Roura", category: "Health", path: "media/courses/omicron.mp4", poster: "media/posters/poster-omicron,png" }).save(),
-      new Course({ name: "Variante omicron VIII", speaker: "Ana Maria Roura", category: "Health", path: "media/courses/omicron.mp4", poster: "media/posters/poster-omicron,png" }).save(),
-      new Course({ name: "Variante omicron IX", speaker: "Ana Maria Roura", category: "Health", path: "media/courses/omicron.mp4", poster: "media/posters/poster-omicron,png" }).save(),
+      new Course({ name: "Evento Online Radiesse", speaker: "Radiesse", category: "Health", path: "media/courses/omicron.mp4", poster: "media/posters/poster-omicron,png" }).save(),
     ]);
 
     console.log(values);
