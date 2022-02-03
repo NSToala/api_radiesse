@@ -14,7 +14,7 @@ export const createCourse = async () => {
 
     // Create default Courses
     const values = await Promise.all([
-      new Course({ name: "Evento Online Radiesse", speaker: "Radiesse", category: "Health", path: "media/courses/omicron.mp4", poster: "media/posters/poster-omicron,png" }).save(),
+      new Course({ name: "Evento Online Radiesse", speaker: "Radiesse", category: "Health", path: "media/courses/omicron.mp4", poster: "media/posters/poster-omicron.png" }).save(),
     ]);
 
     console.log(values);
