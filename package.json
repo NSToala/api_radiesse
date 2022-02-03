@@ -1,7 +1,7 @@
 {
-  "name": "company-products-api",
+  "name": "radiesse-api",
   "version": "1.0.1",
-  "description": "A Company REST API with authentication and authorization",
+  "description": "A REST API with authentication and authorization",
   "main": "dist/index.js",
   "scripts": {
     "dev": "nodemon src/index.js --exec babel-node",
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/FaztWeb/company-products-api.git"
   },
   "keywords": [],
-  "author": "Fazt",
+  "author": "NSToala",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/FaztWeb/company-products-api/issues"
