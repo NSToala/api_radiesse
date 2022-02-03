@@ -1,5 +1,5 @@
 {
-  "name": "radiesse-api",
+  "name": "tanger-api",
   "version": "1.0.1",
   "description": "A REST API with authentication and authorization",
   "main": "dist/index.js",
